@@ -1,6 +1,4 @@
 <?php
-	session_start();
-
 	$urlSite = $_SERVER['REQUEST_URI'];
 	
 	/* Retira Parametros da URL*/
