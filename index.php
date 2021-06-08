@@ -87,6 +87,71 @@
             require 'configs/section.php';
         ?>
         <!-- Fim Conteudo -->
+
+        <!-- Footer -->
+        <footer class="bg-dark text-white">
+            <div class="container py-4">
+                <div class="row mt-4">
+                    <div class="col-sm-6 col-md-3 col-lg-3 mb-3 mb-md-3">
+                        <h4 class="h6 font-weight-bold">PÁGINAS</h4>
+                        <ul class="list-unstyled mt-3">
+                            <li class="mb-1"><a class="text-secondary" href="/planos">Planos</a></li>
+                            <li class="mb-1"><a class="text-secondary" href="/contato">Contato</a></li>
+                            <li class="mb-1"><a class="text-secondary" href="/inscricao">Inscreva-se</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-2 col-lg-3 mb-3 mb-md-3">
+                        <h4 class="h6 font-weight-bold">LOCAIS</h4>
+                        <ul class="list-unstyled mt-3">
+                            <li class="mb-1"><a class="text-secondary" href="/locais">California</a></li>
+                            <li class="mb-1"><a class="text-secondary" href="/locais">Paris</a></li>
+                            <li class="mb-1"><a class="text-secondary" href="/locais">Dublin</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-3 mb-md-3">
+                        <h4 class="h6 font-weight-bold">DADOS DE CONTATO</h4>
+                        <ul class="list-unstyled text-secondary mt-3">
+                            <li class="mb-1">caravan@caravan.com.br</li>
+                            <li class="mb-1">21 99999-9999</li>
+                            <li class="mb-1">De Seg. à Sex. das 8h às 18h</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-3 mb-3 mb-md-3">
+                        <h4 class="h6 font-weight-bold">REDES SOCIAIS</h4>
+                        <ul class="list-unstyled mt-3">
+                            <li class="mb-1">
+                                <a
+                                    class="btn btn-outline-secondary btn-sm btn-block mb-2"
+                                    href="#"
+                                    style="max-width: 140px"
+                                    >Facebook</a
+                                >
+                            </li class="mb-1">
+                            <li class="mb-1">
+                                <a
+                                    class="btn btn-outline-secondary btn-sm btn-block mb-2"
+                                    href="#"
+                                    style="max-width: 140px"
+                                    >Twitter</a
+                                >
+                            </li>
+                            <li class="mb-1">
+                                <a
+                                    class="btn btn-outline-secondary btn-sm btn-block mb-2"
+                                    href="#"
+                                    style="max-width: 140px"
+                                    >Youtube</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-primary text-center py-3">
+                <p class="mb-0">Caravan © 2017. Alguns direitos reservados.</p>
+            </div>
+        </footer>
+        <!-- Fim Footer -->
         <!-- Script -->
         <script src="./public/js/jquery-3.6.0.min.js"></script>
         <script src="./public/js/bootstrap.js"></script>

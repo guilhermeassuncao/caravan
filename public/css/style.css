@@ -31,6 +31,11 @@ body {
     margin-top: -15px;;
 }
 
+/* Footer */
+footer a.text-secondary:hover {
+    color: #fff !important;
+}
+
 /* Responsivo */
 @media (max-width: 767px) {
     .display-4 {
