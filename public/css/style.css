@@ -1,14 +1,47 @@
 /* Geral */
-body{
+body {
     padding-top: 4.6875rem;
 }
 
 /* Header */
-.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus,  .navbar-light .navbar-nav .nav-link.active{
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link.active {
     color: var(--blue);
 }
 
+.navbar-light .navbar-toggler {
+    color: var(--blue);
+    border-color: transparent;
+}
+
 /* Seção Vantagens */
-.icone-vantagens{
+.icone-vantagens {
     height: 6.25rem;
+}
+
+/* Seção Home-Quote */
+#home-quote {
+    background: url("../img/bg-quote.jpg") center center;
+    background-size: cover;
+}
+
+/* Seção Perguntas */
+#perguntas {
+    margin-top: -15px;;
+}
+
+/* Responsivo */
+@media (max-width: 767px) {
+    .display-4 {
+        font-size: 2.5rem;
+    }
+
+    body {
+        padding-top: 0px;
+    }
+
+    .fixed-top {
+        position: relative;
+    }
 }

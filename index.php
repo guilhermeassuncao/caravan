@@ -26,6 +26,7 @@
             </a>
 
             <button
+                id="navbar-toggler"
                 class="navbar-toggler"
                 type="button"
                 data-toggle="collapse"
@@ -72,7 +73,7 @@
                         >
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn-outline-primary ml-md-3 font-weight-bold" href="/inscricao"
+                        <a class="btn btn-outline-primary ml-md-3 my-2 my-md-0 font-weight-bold" href="/inscricao"
                             >Inscreva-se</a
                         >
                     </li>
