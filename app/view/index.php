@@ -1,4 +1,4 @@
-<!-- Carousel -->
+<!-- Seção Carousel -->
 <section class="container-fluid">
     <div class="row bg-dark text-white">
         <div class="col-lg-7 p-0">
@@ -54,7 +54,7 @@
         </div>
     </div>
 </section>
-<!-- Fim Carousel -->
+<!-- Fim Seção Carousel -->
 <!-- Seção Vantagens -->
 <section class="py-5 bg-light text-center">
     <div class="container">
@@ -115,7 +115,7 @@
     </div>
 </section>
 <!-- Fim Seção Vantagens -->
-<!-- Seçao Quote -->
+<!-- Seção Quote -->
 <section id="home-quote" class="p-md-5">
     <blockquote class="blockquote text-center text-white p-md-5 p-4">
         <p class="display-4">
@@ -124,7 +124,7 @@
         <footer class="blockquote-footer text-white">Bob Dylan</footer>
     </blockquote>
 </section>
-<!-- Fim Quote -->
+<!-- Fim Seção Quote -->
 <!-- Seção Perguntas -->
 <section class="py-5 bg-light" id="perguntas">
     <div class="container">
@@ -133,7 +133,7 @@
             <h2 class="display-4 text-primary font-weight-bold">Perguntas Frequentes</h2>
         </div>
         <div class="row justify-content-center">
-            <div class="col-md-6" id="perguntasFrequentes" data-children=".pergunta">
+            <div class="col-md-7" id="perguntasFrequentes" data-children=".pergunta">
                 <div class="pergunta py-3">
                     <a
                         class="lead"

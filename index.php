@@ -19,6 +19,34 @@
         <!-- Fim Title -->
     </head>
     <body>
+
+        <!-- Modal -->
+        <div class="modal fade show" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="modalLoginTitulo">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header d-flex justify-content-center">
+                        <img class="mt-5" src="./public/img/caravan.svg" alt="Caravan" />
+                    </div>
+                    <div class="modal-body">
+                        <form class="px-5 pb-5 pt-3">
+                            <h3 class="text-primary font-weight-bold">Fazer Login</h3>
+                            <div class="form-group">
+                                <label for="loginEmail">Email</label>
+                                <input type="email" class="form-control" id="loginEmail" />
+                            </div>
+                            <div class="form-group">
+                                <label for="loginSenha">Senha</label>
+                                <input type="password" class="form-control" id="loginSenha" />
+                            </div>
+                            <button type="submit" class="btn btn-primary mt-5 btn-block">Entrar na Conta</button>
+                            <small class="form-text text-muted text-center mb-4">Esqueceu a senha? <a href="#">Clique aqui</a></small>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fim Modal -->
+
         <!-- Navbar -->
         <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top py-3 px-5 shadow-sm">
             <a href="/" class="navbar-brand">
@@ -152,8 +180,10 @@
             </div>
         </footer>
         <!-- Fim Footer -->
+
         <!-- Script -->
         <script src="./public/js/jquery-3.6.0.min.js"></script>
+        <script src="./public/js/popper.min.js"></script>
         <script src="./public/js/bootstrap.js"></script>
         <script src="./public/js/app.js"></script>
         <!-- Fim Script -->

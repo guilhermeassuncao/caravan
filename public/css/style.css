@@ -15,6 +15,11 @@ body {
     border-color: transparent;
 }
 
+.form-row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
 /* Seção Vantagens */
 .icone-vantagens {
     height: 6.25rem;
@@ -28,12 +33,67 @@ body {
 
 /* Seção Perguntas */
 #perguntas {
-    margin-top: -15px;;
+    margin-top: -15px;
+}
+
+/* Seção Planos */
+.lista-plano li + li {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.lista-plano li {
+    padding: 1rem;
+}
+
+#planos h2::after {
+    display: block;
+    content: "";
+    width: 32px;
+    height: 4px;
+    background: var(--blue);
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
 }
 
 /* Footer */
 footer a.text-secondary:hover {
     color: #fff !important;
+}
+
+/* Seção Contato */
+#contato h2::after {
+    display: block;
+    content: "";
+    width: 32px;
+    height: 4px;
+    background: var(--blue);
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Seção Inscrição */
+#inscricao h2::after {
+    display: block;
+    content: "";
+    width: 32px;
+    height: 4px;
+    background: var(--blue);
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Modal */
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-body h3::after {
+    display: block;
+    content: "";
+    width: 32px;
+    height: 4px;
+    background: var(--blue);
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
 }
 
 /* Responsivo */
