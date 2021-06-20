@@ -1,5 +1,6 @@
 <?php
     require 'configs/header.php';
+    $urlAtual = $_SERVER['REQUEST_URI'];
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -7,6 +8,14 @@
         <!-- Meta -->
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <meta name="description" content="Compre sua viagem dos sonhos com os melhores preços do mercado">
+        <meta property="og:description" content="Compre sua viagem dos sonhos com os melhores preços do mercado"/>
+
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Caravan | Realize a viagem do seu sonho"/>
+        <meta property="og:url" content="https://caravan-guilhermeassuncao.herokuapp.com"/>
+        <meta property="og:image" content="https://caravan-guilhermeassuncao.herokuapp.com/public/img/og-image.png"/>
         <!-- Fim Meta -->
 
         <!-- CSS -->
@@ -15,7 +24,7 @@
         <!-- Fim CSS -->
 
         <!-- Title -->
-        <title>Caravan</title>
+        <title>Caravan | Realize a viagem do seu sonho</title>
         <!-- Fim Title -->
     </head>
     <body>
@@ -70,7 +79,7 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item dropdown">
                         <a
-                            class="nav-link dropdown-toggle font-weight-bold text-dark"
+                            class="nav-link dropdown-toggle font-weight-bold text-dark <?php if ($urlAtual == '/locais') echo " active";?>"
                             href="#"
                             id="navbarDropdown"
                             role="button"
@@ -86,10 +95,10 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link font-weight-bold text-dark ml-md-3" href="/planos">Planos</a>
+                        <a class="nav-link font-weight-bold text-dark ml-md-3 <?php if ($urlAtual == '/planos') echo " active";?>" href="/planos">Planos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link font-weight-bold text-dark ml-md-3" href="/contato">Contato</a>
+                        <a class="nav-link font-weight-bold text-dark ml-md-3 <?php if ($urlAtual == '/contato') echo " active";?>" href="/contato">Contato</a>
                     </li>
                     <li class="nav-item">
                         <a

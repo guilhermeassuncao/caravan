@@ -9,7 +9,7 @@
             <div class="bg-light rounded p-4 shadow-sm">
                 <h2 class="mt-3 mb-4 text-primary font-weight-bold">Gold</h2>
                 <ul class="lista-plano list-unstyled">
-                    <li><span data-toggle="tooltip" data-placement="top" data-original-title="Isso mesmo, são 30 dias totais durante a viagem.">→ 30 dias de viagem</span></li>
+                    <li><span data-toggle="tooltip" data-placement="right" data-original-title="Isso mesmo, são 30 dias totais durante a viagem.">→ 30 dias de viagem</span></li>
                     <li>→ 3 destinos diferentes</li>
                     <li>→ Tudo pago pela empresa</li>
                     <li>→ Ingressos para festas</li>
@@ -38,7 +38,7 @@
             <div class="bg-light rounded p-4 shadow-sm">
                 <h2 class="mt-3 mb-4 text-primary font-weight-bold">Platinum <span class="badge badge-primary">Novo</span></h2>
                 <ul class="lista-plano list-unstyled">
-                    <li>→ 60 dias de viagem</li>
+                    <li><span data-toggle="tooltip" data-placement="right" data-original-title="Isso mesmo, são 60 dias totais durante a viagem.">→ 60 dias de viagem</span></li>
                     <li>→ 6 destinos diferentes</li>
                     <li>→ Tudo pago pela empresa</li>
                     <li>→ Ingressos para festas</li>
