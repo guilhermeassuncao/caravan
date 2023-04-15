@@ -1,9 +1,7 @@
-/* Geral */
 body {
     padding-top: 4.6875rem;
 }
 
-/* Header */
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link.active {
@@ -14,28 +12,24 @@ body {
     border-color: transparent;
 }
 
-.form-row{
+.form-row {
     margin-left: 0;
     margin-right: 0;
 }
 
-/* Seção Vantagens */
 .icone-vantagens {
     height: 6.25rem;
 }
 
-/* Seção Home-Quote */
 #home-quote {
-    background: url("../img/bg-quote.jpg") center center;
+    background: url('../img/bg-quote.jpg') center center;
     background-size: cover;
 }
 
-/* Seção Perguntas */
 #perguntas {
     margin-top: -15px;
 }
 
-/* Seção Planos */
 .lista-plano li + li {
     border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
@@ -45,7 +39,7 @@ body {
 
 #planos h2::after {
     display: block;
-    content: "";
+    content: '';
     width: 32px;
     height: 4px;
     background: var(--blue);
@@ -53,15 +47,13 @@ body {
     margin-bottom: 1.5rem;
 }
 
-/* Footer */
 footer a.text-secondary:hover {
     color: #fff !important;
 }
 
-/* Seção Contato */
 #contato h2::after {
     display: block;
-    content: "";
+    content: '';
     width: 32px;
     height: 4px;
     background: var(--blue);
@@ -69,10 +61,9 @@ footer a.text-secondary:hover {
     margin-bottom: 1.5rem;
 }
 
-/* Seção Inscrição */
 #inscricao h2::after {
     display: block;
-    content: "";
+    content: '';
     width: 32px;
     height: 4px;
     background: var(--blue);
@@ -80,14 +71,13 @@ footer a.text-secondary:hover {
     margin-bottom: 1.5rem;
 }
 
-/* Modal */
 .modal-header {
     border-bottom: none;
 }
 
 .modal-body h3::after {
     display: block;
-    content: "";
+    content: '';
     width: 32px;
     height: 4px;
     background: var(--blue);
@@ -95,7 +85,6 @@ footer a.text-secondary:hover {
     margin-bottom: 1.5rem;
 }
 
-/* Responsivo */
 @media (max-width: 767px) {
     .display-4 {
         font-size: 2.5rem;

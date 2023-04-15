@@ -1,4 +1,3 @@
-<!-- Seção Galeria -->
 <section class="container">
     <div class="text-center my-5">
         <span class="h6 d-block">O MELHOR DESTINO DA SUA VIAGEM</span>
@@ -20,8 +19,6 @@
         </div>
     </div>
 </section>
-<!-- Fim Seção Galeria -->
-<!-- Seção Proximos Eventos -->
 <section class="container mt-5">
     <div class="text-center my-5">
         <span class="h6 d-block">DESCUBRA O QUE ACONTECE NA CIDADE</span>
@@ -77,4 +74,3 @@
     </table>
 </section>
 <div class="mb-5"></div>
-<!-- Fim Seção Proximos Eventos -->

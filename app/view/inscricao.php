@@ -1,4 +1,3 @@
-<!-- Seção Incrição -->
 <section class="container" id="inscricao">
     <div class="my-5 text-center">
         <span class="h6 d-block">PROGRAME A VIAGEM DO SEU SONHO</span>
@@ -37,7 +36,7 @@
                 <div class="col-md-12">
                     <h2 class="mt-4 mb-4 text-primary font-weight-bold h3">Dados Pessoais</h2>
                 </div>
-                
+
                 <div class="form-group col-md-6 mb-5">
                     <label for="inputNome">Nome</label>
                     <input type="text" class="form-control" id="inputNome" placeholder="Nome completo" />
@@ -56,12 +55,8 @@
                 </div>
                 <div class="form-group col-12 mb-5">
                     <label for="inputEndereco">Endereço</label>
-                    <input
-                        type="text"
-                        class="form-control"
-                        id="inputEndereco"
-                        placeholder="Número, nome da rua e bairro."
-                    />
+                    <input type="text" class="form-control" id="inputEndereco"
+                        placeholder="Número, nome da rua e bairro." />
                 </div>
                 <div class="form-group col-md-6 mb-4">
                     <label for="inputCidade">Cidade</label>
@@ -86,47 +81,23 @@
             <div class="form-group bg-light rounded shadow-sm p-3 mt-4">
                 <h2 class="mt-3 mb-4 text-primary font-weight-bold h3">Formas de Pagamento</h2>
                 <nav class="nav btn-group mb-3" id="formaPagamento" role="tablist">
-                    <button
-                        type="button"
-                        class="btn btn-secondary active btn-sm"
-                        id="nav-cartao-tab"
-                        data-toggle="tab"
-                        href="#nav-cartao"
-                        role="tab"
-                        aria-controls="nav-cartao"
-                        aria-selected="true"
-                    >
+                    <button type="button" class="btn btn-secondary active btn-sm" id="nav-cartao-tab" data-toggle="tab"
+                        href="#nav-cartao" role="tab" aria-controls="nav-cartao" aria-selected="true">
                         Cartão de Crédito
                     </button>
-                    <button
-                        type="button"
-                        class="btn btn-secondary btn-sm"
-                        id="nav-boleto-tab"
-                        data-toggle="tab"
-                        href="#nav-boleto"
-                        role="tab"
-                        aria-controls="nav-boleto"
-                        aria-selected="false"
-                    >
+                    <button type="button" class="btn btn-secondary btn-sm" id="nav-boleto-tab" data-toggle="tab"
+                        href="#nav-boleto" role="tab" aria-controls="nav-boleto" aria-selected="false">
                         Boleto Bancário
                     </button>
                 </nav>
                 <div class="tab-content" id="formaPagamentoConteudo">
-                    <div
-                        class="tab-pane fade show active"
-                        id="nav-cartao"
-                        role="tabpanel"
-                        aria-labelledby="nav-cartao-tab"
-                    >
+                    <div class="tab-pane fade show active" id="nav-cartao" role="tabpanel"
+                        aria-labelledby="nav-cartao-tab">
                         <div class="form-row">
                             <div class="form-group col-md-6 mb-5">
                                 <label for="inputNomeCartao">Nome no Cartão</label>
-                                <input
-                                    type="text"
-                                    class="form-control"
-                                    id="inputNomeCartao"
-                                    placeholder="Nome impresso no cartão"
-                                />
+                                <input type="text" class="form-control" id="inputNomeCartao"
+                                    placeholder="Nome impresso no cartão" />
                             </div>
                             <div class="form-group col-md-3 col-6 mb-5">
                                 <label for="inputCidade">Mês</label>
@@ -150,12 +121,8 @@
                             </div>
                             <div class="form-group col-md-6 mb-5">
                                 <label for="inputNumeroCartao">Número do Cartão</label>
-                                <input
-                                    type="text"
-                                    class="form-control"
-                                    id="inputNumeroCartao"
-                                    placeholder="5555 5555 5555 5555"
-                                />
+                                <input type="text" class="form-control" id="inputNumeroCartao"
+                                    placeholder="5555 5555 5555 5555" />
                             </div>
                             <div class="form-group col-md-6 mb-5">
                                 <label for="inputCodigo">Código de Segurança</label>
@@ -178,4 +145,3 @@
         </form>
     </div>
 </section>
-<!-- Fim Seção Incrição -->

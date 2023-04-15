@@ -1,4 +1,3 @@
-<!-- Seção Contato -->
 <section class="container" id="contato">
     <div class="my-5 text-center">
         <span class="h6 d-block">POSSUI ALGUMA DÚVIDA?</span>
@@ -25,9 +24,8 @@
         </div>
         <div class="col-lg">
             <h2 class="h6 font-weight-bold mb-3">NOSSO ENDEREÇO</h2>
-            <a href="#"
-                ><img class="img-fluid shadow-sm rounded mb-4" src="./public/img/mapa.png" alt="Endereço da Empresa"
-            /></a>
+            <a href="#"><img class="img-fluid shadow-sm rounded mb-4" src="./public/img/mapa.png"
+                    alt="Endereço da Empresa" /></a>
 
             <h2 class="h6 font-weight-bold mb-3 mt-5">DADOS DE CONTATO</h2>
             <ul class="list-unstyled text-secondary">
@@ -45,8 +43,6 @@
         </div>
     </div>
 </section>
-<!-- Fim Seção Contato -->
-<!-- Seção Perguntas -->
 <section class="container mb-5">
     <div class="my-4 my-md-5 text-center">
         <span class="h6 d-block">AINDA ESTÁ COM DÚVIDAS?</span>
@@ -55,14 +51,8 @@
     <div class="row justify-content-center">
         <div class="col-md-7" id="perguntasFrequentes" data-children=".pergunta">
             <div class="pergunta py-3">
-                <a
-                    class="lead"
-                    data-toggle="collapse"
-                    href="#pergunta1"
-                    aria-expanded="true"
-                    aria-controls="pergunta1"
-                    >→ É possível cancelar a viagem?</a
-                >
+                <a class="lead" data-toggle="collapse" href="#pergunta1" aria-expanded="true"
+                    aria-controls="pergunta1">→ É possível cancelar a viagem?</a>
                 <div id="pergunta1" class="collapse show" role="tabpanel" data-parent="#perguntasFrequentes">
                     <p class="mt-3">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum
@@ -73,14 +63,8 @@
             </div>
             <div class="dropdown-divider"></div>
             <div class="pergunta py-3">
-                <a
-                    class="lead"
-                    data-toggle="collapse"
-                    href="#pergunta2"
-                    aria-expanded="true"
-                    aria-controls="pergunta2"
-                    >→ Qual a garantia que tenho se perder o voo?</a
-                >
+                <a class="lead" data-toggle="collapse" href="#pergunta2" aria-expanded="true"
+                    aria-controls="pergunta2">→ Qual a garantia que tenho se perder o voo?</a>
                 <div id="pergunta2" class="collapse" role="tabpanel" data-parent="#perguntasFrequentes">
                     <p class="mt-3">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum
@@ -91,14 +75,8 @@
             </div>
             <div class="dropdown-divider"></div>
             <div class="pergunta py-3">
-                <a
-                    class="lead"
-                    data-toggle="collapse"
-                    href="#pergunta3"
-                    aria-expanded="true"
-                    aria-controls="pergunta3"
-                    >→ Qual a principal forma de viagem?</a
-                >
+                <a class="lead" data-toggle="collapse" href="#pergunta3" aria-expanded="true"
+                    aria-controls="pergunta3">→ Qual a principal forma de viagem?</a>
                 <div id="pergunta3" class="collapse" role="tabpanel" data-parent="#perguntasFrequentes">
                     <p class="mt-3">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum
@@ -109,14 +87,8 @@
             </div>
             <div class="dropdown-divider"></div>
             <div class="pergunta py-3">
-                <a
-                    class="lead"
-                    data-toggle="collapse"
-                    href="#pergunta4"
-                    aria-expanded="true"
-                    aria-controls="pergunta4"
-                    >→ Qual o melhor destino de viagem?</a
-                >
+                <a class="lead" data-toggle="collapse" href="#pergunta4" aria-expanded="true"
+                    aria-controls="pergunta4">→ Qual o melhor destino de viagem?</a>
                 <div id="pergunta4" class="collapse" role="tabpanel" data-parent="#perguntasFrequentes">
                     <p class="mt-3">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum
@@ -127,14 +99,8 @@
             </div>
             <div class="dropdown-divider"></div>
             <div class="pergunta py-3">
-                <a
-                    class="lead"
-                    data-toggle="collapse"
-                    href="#pergunta5"
-                    aria-expanded="true"
-                    aria-controls="pergunta5"
-                    >→ Vocês dão descontos para grupos grandes?</a
-                >
+                <a class="lead" data-toggle="collapse" href="#pergunta5" aria-expanded="true"
+                    aria-controls="pergunta5">→ Vocês dão descontos para grupos grandes?</a>
                 <div id="pergunta5" class="collapse" role="tabpanel" data-parent="#perguntasFrequentes">
                     <p class="mt-3">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum
@@ -146,4 +112,3 @@
         </div>
     </div>
 </section>
-<!-- Fim Seção Perguntas -->
