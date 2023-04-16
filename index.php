@@ -8,8 +8,8 @@
     <meta property="og:description" content="Compre sua viagem dos sonhos com os melhores preços do mercado" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Caravan | Realize a viagem do seu sonho" />
-    <meta property="og:url" content="https://caravan-guilhermeassuncao.herokuapp.com" />
-    <meta property="og:image" content="https://caravan-guilhermeassuncao.herokuapp.com/public/img/og-image.png" />
+    <meta property="og:url" content="https://caravan.guilhermeassuncao.dev/" />
+    <meta property="og:image" content="https://caravan.guilhermeassuncao.dev//public/img/og-image.png" />
 
     <link rel="shortcut icon" href="./public/img/favicon.png" type="image/png">
     <link rel="stylesheet" href="./public/css/bootstrap.css" />
