@@ -17,7 +17,7 @@ if ($countUrlParts == 1) {
     if (file_exists($urlFilePath)) {
         require $urlFilePath;
     } else {
-        require "./app/view/index.php";
+        require "./app/view/contato.php";
     }
 } else {
     require "./app/view/contato.php";
