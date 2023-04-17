@@ -13,13 +13,13 @@ $countUrlParts = count($urlParts);
 if ($countUrlParts == 1) {
     $url = $urlParts[0];
 
-    $urlFilePath = "./view/$url/index.php";
+    $urlFilePath = "./app/$url/index.php";
     if (file_exists($urlFilePath)) {
         require $urlFilePath;
     } else {
-        require "./view/index.php";
+        require "./app/index.php";
     }
 } else {
-    require "./view/index.php";
+    require "./app/index.php";
 }
 ?>
