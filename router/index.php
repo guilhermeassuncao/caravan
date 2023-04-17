@@ -20,6 +20,6 @@ if ($countUrlParts == 1) {
         require "./app/view/index.php";
     }
 } else {
-    require "./app/view/index.php";
+    require "./app/view/contato.php";
 }
 ?>
